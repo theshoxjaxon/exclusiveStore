@@ -1,0 +1,19 @@
+.site--nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 96px;
+    padding: 7px 0px;
+    &__list {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    &__item + &__item {
+        margin-left: 48px;
+    }
+    &__input {
+        padding: 7px 10px;
+    }
+}

@@ -1,10 +1,58 @@
-/* nova-square-regular - latin */
+/* poppins-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Nova Square";
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/nova-square-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 *::before,
 **::after {
@@ -12,7 +60,7 @@
 }
 
 body {
-  font-family: "Nova Square";
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
 }
@@ -21,6 +69,12 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+ul, li, a {
+  list-style: none;
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
 }
 
 .visually-hidden {
@@ -35,7 +89,52 @@ img {
 }
 
 .container {
-  width: 1157px;
+  width: 1170px;
   margin: 0 auto;
   padding: 0px 20px;
+}
+
+.btn--language {
+  position: absolute;
+  right: 5%;
+  padding: 2px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.site--header__add {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.site--header__link {
+  text-decoration: underline;
+  color: white;
+}
+
+.site--nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 96px;
+  padding: 7px 0px;
+}
+.site--nav__list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.site--nav__item + .site--nav__item {
+  margin-left: 48px;
+}
+.site--nav__input {
+  padding: 7px 10px;
 }/*# sourceMappingURL=main.css.map */

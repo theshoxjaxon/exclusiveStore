@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Nova Square";
+  font-family: 'Poppins';
   margin: 0;
   padding: 0;
 }
@@ -11,6 +11,10 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+ul,li,a {
+  list-style: none;
+  text-decoration: transparent;
 }
 .visually-hidden {
   clip: rect(0 0 0 0);
