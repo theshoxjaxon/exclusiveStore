@@ -1,10 +1,12 @@
 .site--nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     margin-top: 96px;
     padding: 7px 0px;
+    margin-bottom: 48px;
+
     &__list {
         display: flex;
         align-items: center;
@@ -12,6 +14,10 @@
     }
     &__item + &__item {
         margin-left: 48px;
+    }
+    &__link {
+        color: black;
+        font-family: "Poppins";
     }
     &__input {
         padding: 7px 10px;

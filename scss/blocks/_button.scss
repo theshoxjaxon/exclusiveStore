@@ -1,11 +1,24 @@
 .btn {
-    &--language{
+    &--language {
         position: absolute;
         right: 5%;
         padding: 2px;
         border: none;
-        background-color: #0000; 
+        background-color: #0000;
         color: white;
-
+    }
+    &__nav {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: e-resiza;
+        transition: all 0.3s ease;
+    }
+    &__nav:hover {
+        transform: scale(1.6);
     }
 }

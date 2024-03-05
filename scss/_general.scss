@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
 }
@@ -12,9 +12,11 @@ img {
   height: auto;
   vertical-align: middle;
 }
-ul,li,a {
+ul,
+li,
+a {
   list-style: none;
-  text-decoration: transparent;
+  text-decoration: none;
 }
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -24,4 +26,8 @@ ul,li,a {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+.fa-solid:hover {
+  transition: all 0.3s ease;
+  scale: 1.6;
 }
